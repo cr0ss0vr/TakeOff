@@ -1,0 +1,25 @@
+<ui:UXML xmlns="UnityEngine.UIElements" xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="container" style="flex-direction: column; padding: 20px; width: 100%; background-color: rgb(34, 34, 34); top: auto; left: auto; right: auto; bottom: auto; align-items: center; align-self: auto; position: relative; align-content: auto; padding: 10px; min-width: auto; height: 100%; justify-content: space-evenly;">
+        <ui:VisualElement name="containerMainMenu" style="flex-grow: 1; align-items: center; justify-content: center; display: flex;">
+            <ui:Button name="btnSingleplayer" text="Singleplayer" style="width: 100%;" />
+            <ui:VisualElement name="spacer" style="flex-grow: 1; height: 5px; max-height: 5px;" />
+            <ui:Button name="btnMultiplayer" text="Multiplayer" style="width: 100%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="containerMP" enabled="true" style="flex-direction: column; padding: 20px; width: 300px; background-color: rgb(34, 34, 34); right: auto; bottom: auto; flex-wrap: wrap; top: auto; left: auto; display: none; opacity: 1;">
+            <ui:Button name="btnHost" text="Host" style="margin-bottom: 0; margin-top: 0; margin-right: 0; margin-left: 0; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;" />
+            <ui:VisualElement name="spacer" style="flex-grow: 1; height: 5px; max-height: 5px;" />
+            <ui:Button name="btnConnect" text="Connect" style="margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;" />
+            <ui:VisualElement name="spacer" style="flex-grow: 1; height: 5px; max-height: 5px;" />
+            <ui:Button name="btnBackMain" text="Back" style="margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="containerConnection" enabled="true" style="flex-direction: column; padding: 20px; width: 300px; background-color: rgb(34, 34, 34); right: auto; bottom: auto; flex-wrap: wrap; top: auto; left: auto; display: none; opacity: 1;">
+            <ui:Label text="Enter IP:Port" style="color: white; margin-bottom: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-left: 0; align-self: center;" />
+            <ui:VisualElement name="spacer" style="flex-grow: 1; height: 5px; max-height: 5px;" />
+            <ui:TextField name="ipPortField" value="127.0.0.1:7777" style="margin-bottom: 0; margin-top: 0; margin-right: 0; margin-left: 0;" />
+            <ui:VisualElement name="spacer" style="flex-grow: 1; height: 5px; max-height: 5px;" />
+            <ui:Button name="btnConnectGo" text="Connect" style="margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;" />
+            <ui:VisualElement name="spacer" style="flex-grow: 1; height: 5px; max-height: 5px;" />
+            <ui:Button name="btnBackMP" text="Back" style="margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

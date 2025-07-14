@@ -1,0 +1,8 @@
+<ui:UXML xmlns="UnityEngine.UIElements" xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-direction: column; padding: 20px; width: 300px; background-color: rgb(34, 34, 34); right: 50%; bottom: 50%;">
+        <ui:Label text="Enter IP:Port" style="color: white; margin-bottom: 5px;" />
+        <ui:TextField name="ipPortField" value="127.0.0.1:7777" style="margin-bottom: 10px;" />
+        <ui:Button name="hostButton" text="Host" style="margin-bottom: 5px;" />
+        <ui:Button name="connectButton" text="Connect" />
+    </ui:VisualElement>
+</ui:UXML>
